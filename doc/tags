@@ -1,5 +1,5 @@
-audreyer-config	doc/audreyer-config.txt	/*audreyer-config*
-audreyer-introduction	doc/audreyer-config.txt	/*audreyer-config-introduction*
-audreyer-keymap	doc/audreyer-config.txt	/*audreyer-config-keymap*
-audreyer-plugin-list	doc/audreyer-config.txt	/*audreyer-config-plugin*
-audreyer-config.txt	doc/audreyer-config.txt	/*audreyer-config.txt*
+audreyer-config	audreyer-config.txt	/*audreyer-config*
+audreyer-introduction	audreyer-config.txt	/*audreyer-config-introduction*
+audreyer-keymap	audreyer-config.txt	/*audreyer-config-keymap*
+audreyer-plugin-list	audreyer-config.txt	/*audreyer-config-plugin*
+audreyer-config.txt	audreyer-config.txt	/*audreyer-config.txt*
