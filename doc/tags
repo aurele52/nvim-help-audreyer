@@ -1,6 +1,5 @@
-nvimsheet	nvimsheet.txt	/*nvimsheet*
-nvimsheet-introduction	nvimsheet.txt	/*nvimsheet-introduction*
-nvimsheet-native	nvimsheet.txt	/*nvimsheet-native*
-nvimsheet-plugin	nvimsheet.txt	/*nvimsheet-plugin*
-nvimsheet-native	nvimsheet.txt	/*nvimsheet-native*
-nvimsheet.txt	nvimsheet.txt	/*nvimsheet.txt*
+audreyer-config	doc/audreyer-config.txt	/*audreyer-config*
+audreyer-introduction	doc/audreyer-config.txt	/*audreyer-config-introduction*
+audreyer-keymap	doc/audreyer-config.txt	/*audreyer-config-keymap*
+audreyer-plugin-list	doc/audreyer-config.txt	/*audreyer-config-plugin*
+audreyer-config.txt	doc/audreyer-config.txt	/*audreyer-config.txt*

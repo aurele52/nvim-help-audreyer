@@ -1,27 +1,31 @@
-*nvimsheet.txt*	For NVIM version 0.2.0	Last change: 2017-11-18 
-*nvimsheet*
+*audreyer-config.txt*	For NVIM version 0.2.0	Last change: 2017-11-18 
+*audreyer-config*
 
 Fong's personal cheat sheet for Vim. 
 
 ===============================================================================
 CONTENTS
 
-	1. Introduction......................................|nvimsheet-introduction|
-	2. Native..................................................|nvimsheet-native|
-	3. Plugin..................................................|nvimsheet-plugin|
-	4. Personnal............................................|nvimsheet-personnal|
-	5. Unused Native........................................|nvimsheet-personnal|
-	6. Unused Plugin........................................|nvimsheet-personnal|
+	1. Introduction.......................................|audreyer-introduction|
+	2. Keymaps.................................................|audreyer-keymaps|
+	2. Plugin list.........................................|audreyer-plugin-list|
 
 ===============================================================================
-1. Introduction                                          *nvimsheet-Introduction*
+1. Introduction                                    *audreyer-config-Introduction*
+
+Here you can see all my nvim configuration with my plugin list and keymaps
+list.
+
+===============================================================================
+2. Keymaps                                                     *audreyer-keymaps*
 
 This is my own vimsheet, here you can see my own key mapping and all native nvim
 key mapping and all plugin key mapping. I also use all map i would use in few
 time, and map i will not use but set by nvim and pluggin i used.
 
+
 ===============================================================================
-2. Native                                                      *nvimsheet-native*
+Native
 
 --- Command mode
 
@@ -122,13 +126,13 @@ time, and map i will not use but set by nvim and pluggin i used.
     Ctrl + wk - move cursor to the window above (horizontal split)
 
 ===============================================================================
-3. Plugin                                                      *nvimsheet-plugin*
+Plugin
 
 ===============================================================================
-4. Personnal                                                *nvimsheet-personnal*
+Personnal
 
 ===============================================================================
-5. Unused Native                                         *nvimsheet-Introduction*
+Unused Native
 
 --- Command
 
@@ -278,10 +282,10 @@ time, and map i will not use but set by nvim and pluggin i used.
 
 
 ===============================================================================
-6. Unused Plugin                                         *nvimsheet-introduction*
+Unused Plugin                                         
 
 ===============================================================================
-7. Next to use                                         *nvimsheet-nexttouse*
+Next to use
 
 --- All
 
@@ -378,6 +382,8 @@ time, and map i will not use but set by nvim and pluggin i used.
     Ctrl + wJ - make current window full width at the very bottom (bottommost horizontal window)
     Ctrl + wK - make current window full width at the very top (topmost horizontal window)
 
+===============================================================================
+3. Plugin list                                             *audreyer-plugin-list*
 
 
 # vim: filetype=help:ts=2
