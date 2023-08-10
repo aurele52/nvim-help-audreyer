@@ -128,124 +128,31 @@ Native
 ===============================================================================
 Plugin
 
---- Comment
-
-    --- NORMAL mode - Linewise
-
-		gcc - Toggles the current line using linewise comment
-		[count]gcc - Toggles the number of line given as a prefix-count using linewise
-		gc[count]{motion} - (Op-pending) Toggles the region using linewise comment
-		gco - Insert comment to the next line and enters INSERT mode
-		gcO - Insert comment to the previous line and enters INSERT mode
-		gcA - Insert comment to end of the current line and enters INSERT mode
-		gcw - Toggle from the current cursor position to the next word
-		gc$ - Toggle from the current cursor position to the end of line
-		gc} - Toggle until the next blank line
-		gc5j - Toggle 5 lines after the current cursor position
-		gc8k - Toggle 8 lines before the current cursor position
-		gcip - Toggle inside of paragraph
-		gca} - Toggle around curly brackets
-		
-    --- NORMAL mode - Blockwise
-
-		gb2} - Toggle until the 2 next blank line
-		gbaf - Toggle comment around a function (w/ LSP/treesitter support)
-		gbac - Toggle comment around a class (w/ LSP/treesitter support)
-		gbc - Toggles the current line using blockwise comment
-		[count]gbc - Toggles the number of line given as a prefix-count using blockwise
-		gb[count]{motion} - (Op-pending) Toggles the region using blockwise comment
-
-    ---	VISUAL mode
-
-		gc - Toggles the region using linewise comment
-		gb - Toggles the region using blockwise comment
-
---- Telescope
-
-		<C-n>/<Down> : Next item
-		<C-p>/<Up> : Previous item
-		j/k : Next/previous (in normal mode)
-		H/M/L : Select High/Middle/Low (in normal mode)
-		gg/G : Select the first/last item (in normal mode)
-		<CR> : Confirm selection
-		<C-x> : Go to file selection as a split
-		<C-v> : Go to file selection as a vsplit
-		<C-t> : Go to a file in a new tab
-		<C-u> : Scroll up in preview window
-		<C-d> : Scroll down in preview window
-		<C-f> : Scroll left in preview window
-		<C-k> : Scroll right in preview window
-		<M-f> : Scroll left in results window
-		<M-k> : Scroll right in results window
-		<C-/> : Show mappings for picker actions (insert mode)
-		? : Show mappings for picker actions (normal mode)
-		<C-c> : Close telescope
-		<Esc> : Close telescope (in normal mode)
-		<Tab> : Toggle selection and move to next selection
-		<S-Tab> : Toggle selection and move to prev selection
-		<C-q> : Send all items not filtered to quickfixlist (qflist)
-		<M-q> : Send all selected items to qflist
-
---- Tree plugin - in file explorer
-
-		<C-]> :	CD
-		<C-e> :	Open: In Place
-		<C-k> :	Info
-		<C-r> :	Rename: Omit Filename
-		<C-t> :	Open: New Tab
-		<C-v> :	Open: Vertical Split
-		<C-x> :	Open: Horizontal Split
-		<BS> : Close Directory
-		<CR> : Open
-		<Tab> :	Open Preview
-		> :	Next Sibling
-		\< : (without \) Previous Sibling
-		. : Run Command
-		- : Up
-		a : Create
-		bdDelete : Bookmarked
-		bmv : Move Bookmarked
-		B : Toggle Filter: No Buffer
-		c : Copy
-		C : Toggle Filter: Git Clean
-		[c : Prev Git
-		]c : Next Git
-		d : Delete
-		D : Trash
-		E : Expand All
-		e : Rename: Basename
-		]e: Next Diagnostic
-		[e: Prev Diagnostic
-		F : Clean Filter
-		f : Filter
-		g?: Help
-		gy : Copy Absolute Path
-		H : Toggle Filter: Dotfiles
-		I : Toggle Filter: Git Ignore
-		J : Last Sibling
-		K : First Sibling
-		m : Toggle Bookmark
-		o : Open
-		O : Open: No Window Picker
-		p : Paste
-		P : Parent Directory
-		q : Close
-		r : Rename
-		R : Refresh
-		s : Run System
-		S : Search
-		U : Toggle Filter: Hidden
-		W : Collapse
-		x : Cut
-		y : Copy Name
-		Y : Copy Relative Path
-		<2-LeftMouse> : Open
-		<2-RightMouse> : CD
-
 
 
 ===============================================================================
 Personnal
+
+--- Leader key
+
+<leader> = space
+
+--- Insert mode
+
+<Up> : unactive
+<Down> : unactive
+<Left> : unactive
+<Right> : unactive
+
+--- Normal mode
+
+<Up> : unactive
+<Down> : unactive
+<Left> : unactive
+<Right> : unactive
+
+<leader>h : open and verticale split audreyer-help forr editing
+<leader>a : open file explorer "tree.nvim"
 
 ===============================================================================
 Unused Native
@@ -399,6 +306,120 @@ Unused Native
 
 ===============================================================================
 Unused Plugin                                         
+
+--- Comment
+
+    --- NORMAL mode - Linewise
+
+		gcc - Toggles the current line using linewise comment
+		[count]gcc - Toggles the number of line given as a prefix-count using linewise
+		gc[count]{motion} - (Op-pending) Toggles the region using linewise comment
+		gco - Insert comment to the next line and enters INSERT mode
+		gcO - Insert comment to the previous line and enters INSERT mode
+		gcA - Insert comment to end of the current line and enters INSERT mode
+		gcw - Toggle from the current cursor position to the next word
+		gc$ - Toggle from the current cursor position to the end of line
+		gc} - Toggle until the next blank line
+		gc5j - Toggle 5 lines after the current cursor position
+		gc8k - Toggle 8 lines before the current cursor position
+		gcip - Toggle inside of paragraph
+		gca} - Toggle around curly brackets
+		
+    --- NORMAL mode - Blockwise
+
+		gb2} - Toggle until the 2 next blank line
+		gbaf - Toggle comment around a function (w/ LSP/treesitter support)
+		gbac - Toggle comment around a class (w/ LSP/treesitter support)
+		gbc - Toggles the current line using blockwise comment
+		[count]gbc - Toggles the number of line given as a prefix-count using blockwise
+		gb[count]{motion} - (Op-pending) Toggles the region using blockwise comment
+
+    ---	VISUAL mode
+
+		gc - Toggles the region using linewise comment
+		gb - Toggles the region using blockwise comment
+
+--- Telescope
+
+		<C-n>/<Down> : Next item
+		<C-p>/<Up> : Previous item
+		j/k : Next/previous (in normal mode)
+		H/M/L : Select High/Middle/Low (in normal mode)
+		gg/G : Select the first/last item (in normal mode)
+		<CR> : Confirm selection
+		<C-x> : Go to file selection as a split
+		<C-v> : Go to file selection as a vsplit
+		<C-t> : Go to a file in a new tab
+		<C-u> : Scroll up in preview window
+		<C-d> : Scroll down in preview window
+		<C-f> : Scroll left in preview window
+		<C-k> : Scroll right in preview window
+		<M-f> : Scroll left in results window
+		<M-k> : Scroll right in results window
+		<C-/> : Show mappings for picker actions (insert mode)
+		? : Show mappings for picker actions (normal mode)
+		<C-c> : Close telescope
+		<Esc> : Close telescope (in normal mode)
+		<Tab> : Toggle selection and move to next selection
+		<S-Tab> : Toggle selection and move to prev selection
+		<C-q> : Send all items not filtered to quickfixlist (qflist)
+		<M-q> : Send all selected items to qflist
+
+--- Tree plugin - in file explorer
+
+		<C-]> :	CD
+		<C-e> :	Open: In Place
+		<C-k> :	Info
+		<C-r> :	Rename: Omit Filename
+		<C-t> :	Open: New Tab
+		<C-v> :	Open: Vertical Split
+		<C-x> :	Open: Horizontal Split
+		<BS> : Close Directory
+		<CR> : Open
+		<Tab> :	Open Preview
+		> :	Next Sibling
+		\< : (without \) Previous Sibling
+		. : Run Command
+		- : Up
+		a : Create
+		bdDelete : Bookmarked
+		bmv : Move Bookmarked
+		B : Toggle Filter: No Buffer
+		c : Copy
+		C : Toggle Filter: Git Clean
+		[c : Prev Git
+		]c : Next Git
+		d : Delete
+		D : Trash
+		E : Expand All
+		e : Rename: Basename
+		]e: Next Diagnostic
+		[e: Prev Diagnostic
+		F : Clean Filter
+		f : Filter
+		g?: Help
+		gy : Copy Absolute Path
+		H : Toggle Filter: Dotfiles
+		I : Toggle Filter: Git Ignore
+		J : Last Sibling
+		K : First Sibling
+		m : Toggle Bookmark
+		o : Open
+		O : Open: No Window Picker
+		p : Paste
+		P : Parent Directory
+		q : Close
+		r : Rename
+		R : Refresh
+		s : Run System
+		S : Search
+		U : Toggle Filter: Hidden
+		W : Collapse
+		x : Cut
+		y : Copy Name
+		Y : Copy Relative Path
+		<2-LeftMouse> : Open
+		<2-RightMouse> : CD
 
 ===============================================================================
 Next to use
