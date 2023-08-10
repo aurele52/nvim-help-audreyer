@@ -13,8 +13,6 @@ CONTENTS
 ===============================================================================
 1. Introduction                                    *audreyer-config-Introduction*
 
-Here you can see all my nvim configuration with my plugin list and keymaps
-list.
 
 ===============================================================================
 2. Keymaps                                                     *audreyer-keymaps*
